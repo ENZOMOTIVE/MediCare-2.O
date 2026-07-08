@@ -1,0 +1,146 @@
+/* Navbar styles */
+.Navbar {
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    background-color: hsl(178.41deg 73.72% 30.76% / 87%);
+  }
+  
+  .nav__name {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .nav__name img {
+    padding: 2rem;
+  }
+  
+  .nav__networkSelector {
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+  
+  .nav__networkSelector select {
+    border: 2px solid white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.4em;
+    margin: 2rem;
+    background-color: #333;
+    color: white;
+    width: 190px;
+  }
+  
+  .nav__balance {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav__balance-box {
+    border: 2px solid white;
+    border-radius: 2rem;
+    flex: 1;
+    height: 2.5rem;
+    margin: 2rem 4rem;
+    cursor: pointer;
+  }
+  
+  select option {
+    color: white;
+  }
+  
+ 
+  
+  .nav__myAccount-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 0.5rem 1.5rem;
+    margin: 2rem;
+    border: 2px solid white;
+    border-radius: 0.4em;
+    background-color: hsl(178.41deg 73.72% 30.76% / 87%);
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .nav__myAccount-container:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  .nav__myAccount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .identicon {
+    margin-left: 0.5rem;
+  }
+  
+  /* Option styles */
+  .Option {
+    display: flex;
+    background-color: hsl(178.41deg 73.72% 30.76% / 87%);;
+  }
+  
+  .opt__button {
+    flex: 1;
+    border: 2px solid white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem; 
+    font-size: 1rem;
+    color: white; 
+    font-weight: bold;
+    margin: 1rem; 
+    background-color: transparent;
+    border-radius: 0.4em; 
+    transition: background-color 0.3s;
+  }
+  
+  .opt__button:hover {
+    background-color: #444; 
+    color: white;
+  }
+
+  /* Updated CSS for My Balance */
+.nav__myBalance-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex: 1;
+    padding: 0.5rem 1.5rem;
+    margin: 2rem;
+    border: 2px solid white;
+    border-radius: 0.4em;
+    background-color: hsl(178.41deg 73.72% 30.76% / 87%);
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .nav__myBalance-container:hover {
+    background-color: #333;
+  }
+  
+  .nav__myBalance-container p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+  }
